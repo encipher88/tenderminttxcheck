@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install bc awk -y
+sudo apt install original-awk -y
 sudo apt install bc -y
 for((;;)); do
 
