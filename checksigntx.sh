@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install bc awk -y
 for((;;)); do
 
 # Execute the command and store the output in a variable
