@@ -7,7 +7,7 @@ sudo apt install original-awk uidmap dbus-user-session protobuf-compiler unzip -
 sudo apt install libudev-dev
 
 sudo curl https://sh.rustup.rs -sSf | sh -s -- -y
-$HOME/.cargo/env
+. $HOME/.cargo/env
 curl https://deb.nodesource.com/setup_20.x | sudo bash
 sudo apt install cargo nodejs -y
 
