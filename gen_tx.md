@@ -62,6 +62,9 @@ sudo systemctl enable namadad
 #dont add BIP39 passw, just press enter
 namadaw --pre-genesis derive --alias $VALIDATOR_ALIAS --unsafe-dont-encrypt
 
+#or if u create wallet on local machine with CLI
+#u can copy wallet.toml to pre-gen folder and go to 
+
 TX_FILE_PATH="$HOME/.local/share/namada/pre-genesis/transactions.toml"
 namadac utils init-genesis-established-account --path $TX_FILE_PATH --aliases $VALIDATOR_ALIAS
 
