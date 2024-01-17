@@ -68,7 +68,7 @@ namadaw --pre-genesis derive --alias $VALIDATOR_ALIAS --unsafe-dont-encrypt
 TX_FILE_PATH="$HOME/.local/share/namada/pre-genesis/transactions.toml"
 namadac utils init-genesis-established-account --path $TX_FILE_PATH --aliases $VALIDATOR_ALIAS
 
-ESTABLISHED_ACCOUNT_ADDRESS=tnam1...
+ESTABLISHED_ACCOUNT_ADDRESS=tnam1...change_to_your_address_from_output_previosly_step
 
 EMAIL="******"
 DISCORD_HANDLE="******"
